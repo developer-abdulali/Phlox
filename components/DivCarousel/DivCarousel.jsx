@@ -1,10 +1,11 @@
+
+
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import { TfiAngleRight } from "react-icons/tfi";
-import Link from "next/link";
 
 const CardData = [
   {
@@ -58,14 +59,14 @@ const DivCarousel = () => {
                 width={150}
                 height={100}
               />
-              <div className="p-12 -mt-[83px] hover:bg-blue-900 border rounded-3xl hover:text-white duration-300 cursor-pointer z-1">
-                <h2 className="mx-auto text-center mt-40 text-4xl font-bold">
+              <div className="p-12 -mt-[83px] border rounded-3xl hover:text-white duration-300 cursor-pointer z-1 hover:bg-blue-800">
+                <h2 className="mx-auto text-center mt-36 text-4xl font-bold">
                   {data.title}
                 </h2>
                 <span className="text-2xl text-center text-auto flex mt-10">
                   {data.text}
                 </span>
-                <div className="mt-12 w-12 h-12 mx-auto bg-blue-900 rounded-xl ">
+                <div className="mt-12 w-12 h-12 mx-auto bg-blue-700 rounded-xl">
                   <TfiAngleRight
                     size={25}
                     className="mx-auto relative top-[10px] text-white"

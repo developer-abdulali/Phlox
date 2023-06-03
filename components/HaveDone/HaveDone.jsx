@@ -158,14 +158,14 @@ const HaveDone = () => {
   ];
 
   return (
-    <div className="">
+    <div className="max-w-screen-2xl mx-auto px-4">
       <Slider {...settings}>
         {DataDoneCard.map((data) => (
-          <div key={data.id} className="px-20 relative">
+          <div key={data.id} className="relative">
             <div className="bg-cover">
               <Image src={data.image} width={400} height={50}/>
             </div>
-            <h2 className="absolute top-72 ml-10 text-2xl text-white">{data.title}</h2>
+            <h2 className="absolute top-72 ml-10 text-3xl text-white">{data.title}</h2>
            <span className="absolute top-[330px] ml-10 text-white">{data.text}</span>
           </div>
         ))}

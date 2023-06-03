@@ -69,7 +69,7 @@ const HaveDone = () => {
         </div>
         <h2 className="text-6xl font-light mt-3">What We Have Done</h2>
       </div>
-      <Slider {...settings} className="mt-20 mx-4">
+      <Slider {...settings} className="mt-20">
         {DataDoneCard.map((data) => (
           <div key={data.id} className="px-20 relative cursor-pointer">
             <div className="bg-cover">

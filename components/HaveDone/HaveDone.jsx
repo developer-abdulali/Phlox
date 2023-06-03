@@ -1,5 +1,3 @@
-
-
 // import React from "react";
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
@@ -52,7 +50,7 @@
 //     <div className="max-w-screen-2xl mx-auto px-4 relative">
 //       <Slider {...settings}>
 //         {DataDoneCard.map((data) => (
-     
+
 //             <div
 //               key={data.id}
 //               className="h-auto px-5 relative overflow-visible"
@@ -79,7 +77,7 @@
 //                 </div>
 //               </div>
 //             </div>
- 
+
 //         ))}
 //       </Slider>
 //     </div>
@@ -87,14 +85,6 @@
 // };
 
 // export default HaveDone;
-
-
-
-
-
-
-
-
 
 import React from "react";
 import Slider from "react-slick";
@@ -159,14 +149,25 @@ const HaveDone = () => {
 
   return (
     <div className="max-w-screen-2xl mx-auto">
-      <Slider {...settings}>
+      <div className="text-center">
+        <div className="flex justify-center items-center gap-3">
+          <h4 className="text-2xl text-red-500 font-semibold">OUR CASES</h4>
+          <div className="bg-red-500 border p-1 w-12"></div>
+        </div>
+        <h2 className="text-6xl mt-3">What We Have Done</h2>
+      </div>
+      <Slider {...settings} className="mt-20">
         {DataDoneCard.map((data) => (
           <div key={data.id} className="px-20 relative">
             <div className="bg-cover">
-              <Image src={data.image} width={400} height={50}/>
+              <Image src={data.image} width={400} height={50} />
             </div>
-            <h2 className="absolute top-72 ml-10 text-2xl text-white">{data.title}</h2>
-           <span className="absolute top-[330px] ml-10 text-white">{data.text}</span>
+            <h2 className="absolute top-72 ml-10 text-2xl text-white">
+              {data.title}
+            </h2>
+            <span className="absolute top-[330px] ml-10 text-white">
+              {data.text}
+            </span>
           </div>
         ))}
       </Slider>

@@ -6,6 +6,7 @@ import Partnership from "@/components/Partnership/Partnership";
 import HeroSection2 from "@/components/HeroSection2/HeroSection2";
 import HaveDone from "@/components/HaveDone/HaveDone";
 import TalkToUs from "@/components/TalkToUs/TalkToUs";
+import TeamMembers from "@/components/TeamMembers/TeamMembers";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
    <HeroSection2 />
    <HaveDone />
    <TalkToUs />
+   <TeamMembers />
    </>
   )
 }

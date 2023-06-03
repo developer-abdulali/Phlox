@@ -5,6 +5,7 @@ import DivCarousel from "@/components/DivCarousel/DivCarousel";
 import Partnership from "@/components/Partnership/Partnership";
 import HeroSection2 from "@/components/HeroSection2/HeroSection2";
 import HaveDone from "@/components/HaveDone/HaveDone";
+import TalkToUs from "@/components/TalkToUs/TalkToUs";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
    <Partnership />
    <HeroSection2 />
    <HaveDone />
+   <TalkToUs />
    </>
   )
 }

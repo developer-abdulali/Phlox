@@ -1,25 +1,25 @@
 import React from "react";
 
-const HeroSection2=()=> {
+const HeroSection2 = () => {
   return (
     <div>
       <section className="">
         <div
-          className="container flex flex-col py-10 w-full mx-auto space-y-6  
+          className="max-w-screen-2xl mx-auto flex flex-col my-10 w-full space-y-6  
         lg:py-16 lg:flex-row lg:items-center"
         >
           <div className="w-full flex gap-14">
             <div className="w-full lg:4/12">
-                <div className="relative">
-              <img
-                className="object-cover bg-cover w-full h-full mx-auto rounded-md lg:max-w-2xl"
-                src="/images/CoupleTaxReview.jpg"
-                alt="glasses photo"
-              />
-              <div className="absolute flex rounded-2xl w-96 mx-auto h-72 mt-6 space-y-5 flex-col justify-center items-center top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-transparent to-blue-900">
-              <h1 className="text-7xl font-bold text-white">21</h1>
-              <h3 className="text-white text-xl">Years of Experience</h3>
-              </div>
+              <div className="relative">
+                <img
+                  className="object-cover bg-cover w-full h-full mx-auto rounded-md lg:max-w-2xl"
+                  src="/images/CoupleTaxReview.jpg"
+                  alt="glasses photo"
+                />
+                <div className="absolute flex rounded-2xl w-96 mx-auto h-72 mt-6 space-y-5 flex-col justify-center items-center top-0 bottom-0 left-0 right-0 bg-gradient-to-t from-transparent to-blue-900">
+                  <h1 className="text-7xl font-bold text-white">21</h1>
+                  <h3 className="text-white text-xl">Years of Experience</h3>
+                </div>
               </div>
             </div>
             <div className="w-full lg:4/12 space-y-5">
@@ -45,14 +45,12 @@ const HeroSection2=()=> {
               >
                 wonderful serenity has taken possession of my entire soul, like
                 these sweet mornings of spring which I enjoy with my whole
-                heart.A wonderful serenity has taken possession of my entire
+                heart. A wonderful serenity has taken possession of my entire
                 soul, like these sweet mornings of spring which I enjoy with my
                 whole heart.
               </p>
               <div className="flex ">
-                <button
-                  className="bg-white hover:bg-red-500 hover:text-white duration-300 rounded-xl px-10 py-5 text-sm font-medium text-red-500 shadow-lg"
-                >
+                <button className="bg-white hover:bg-red-500 hover:text-white duration-300 rounded-xl px-10 py-5 text-sm font-medium text-red-500 shadow-lg">
                   READ MORE
                 </button>
               </div>
@@ -62,6 +60,6 @@ const HeroSection2=()=> {
       </section>
     </div>
   );
-}
+};
 
-export default HeroSection2
+export default HeroSection2;

@@ -36,12 +36,7 @@ const Partnership = () => {
           </div>
         </div>
         <div class="relative sm:mt-0 mt-10 px-6 sm:px-0">
-          <Image
-            src={"/images/girlworking.png"}
-            alt="poster"
-            width={800}
-            height={100}
-          />
+        <iframe class="mx-auto w-[700px] lg:max-w-xl h-64 rounded-lg sm:h-96 shadow-xl" src="https://www.youtube.com/embed/kh8Gtj-E1JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>

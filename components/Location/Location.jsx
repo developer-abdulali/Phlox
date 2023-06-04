@@ -19,27 +19,28 @@ export default function Location() {
                 </p>
                 <div className="flex gap-10">
                   <input
-                    type="email"
-                    id="email"
-                    name="email"
+                    type="text"
+                    id="assist"
+                    name="assist"
                     placeholder="How To Assits You"
-                    className="w-full bg-blue-800 rounded-xl mt-5 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-300 ease-in-out"
+                    className="w-full bg-blue-800 text-white rounded-xl mt-5 text-base outline-none py-1 px-3 leading-8 transition-colors duration-300 ease-in-out"
                   />
                   <input
                     type="text"
                     id="Your Name"
                     name="Your Name"
                     placeholder="Your Name"
-                    className="w-full bg-blue-800 rounded-xl mt-5 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-300 ease-in-out"
+                    className="w-full bg-blue-800 rounded-xl mt-5 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-300 ease-in-out"
                   />
                 </div>
                 <div className="flex gap-10">
                   <input
+                    required
                     type="text"
                     id="Phone Number"
                     name="Phone Number"
                     placeholder="Phone Number"
-                    className="w-[330px] bg-blue-800 rounded-xl mt-5 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-[330px] bg-blue-800 rounded-xl mt-5 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                   <button className="text-white mt-6 bg-red-500 border-0 px-10 py-2 focus:outline-none hover:bg-white duration-300 hover:text-red-500 rounded-xl text-lg">
                 SUBMIT REQUEST

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Location() {
   return (
-    <section className="w-full mx-auto pt-10 pb-10 text-gray-600 body-font ">
+    <section className="max-w-screen-2xl mx-auto pt-10 pb-10 text-gray-600 body-font ">
       <div className="w-full relative">
         <div className="w-full lg:w-6/12">
           <div className="container mx-auto flex">
@@ -17,7 +17,7 @@ export default function Location() {
                 <p className="leading-7 text-xl text-white">
                   I would like to discuss:
                 </p>
-                <div className="flex gap-10">
+                <div className="flex flex-col md:flex-row gap-10">
                   <input
                     type="text"
                     id="assist"
@@ -30,10 +30,10 @@ export default function Location() {
                     id="Your Name"
                     name="Your Name"
                     placeholder="Your Name"
-                    className="w-full bg-blue-800 rounded-xl mt-5 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-300 ease-in-out"
+                    className="w-full bg-blue-800 rounded-xl md:mt-5 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-300 ease-in-out"
                   />
                 </div>
-                <div className="flex gap-10">
+                <div className="flex flex-col md:flex-row gap-10">
                   <input
                     required
                     type="text"

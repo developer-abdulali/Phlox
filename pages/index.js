@@ -25,7 +25,7 @@ export default function Home() {
    <HaveDone />
    <TalkToUs />
    <TeamMembers />
-  {/* <Location /> */}
+  <Location />
   {/* <OurBlog /> */}
   {/* <Companies /> */}
   {/* <Footer/> */}

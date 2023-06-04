@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <div>
@@ -8,25 +10,28 @@ export default function Footer() {
         <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
             <div className="text-white">
-              <img
-                src="/images/companyLogo.png"
-                className="mr-5 h-60 sm:h-12 w-40 rounded-full"
+              <Image
+                src="/images/companyLogo.png" width={100} height={300}
+                className="sm:h-12 rounded-full h-60"
                 alt="logo"
               />
-              <p className="max-w-xs mt-4 text-sm text-white">
+              <p className="max-w-xs mt-4 text-md text-white">
                 34 Hamston, Times Avnue NY
               </p>
-              <p className="max-w-xs mt-4 text-sm text-white">
+              <p className="max-w-xs mt-4 text-md text-white">
                 +1-3454-5678-77
               </p>
-              <p className="max-w-xs mt-4 text-sm text-white">
-                Phlox@Averta.net
+             
+      
+              <p className="max-w-xs mt-4 text-md text-white">
+               Phlox@Averta.net
               </p>
+         
             </div>
             <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-3">
               <div>
                 <p className="font-medium text-xl">Useful Links</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
+                <nav className="flex flex-col mt-4 space-y-2 text-md text-white">
                   <Link className="hover:text-red-500 duration-300" href="/">
                     About Us
                   </Link>
@@ -46,8 +51,8 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-medium text-xl">What We Do</p>
-                <nav className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                  <Link className="hover:opacity-75" href="">
+                <nav className="flex flex-col mt-4 space-y-2 text-md text-white">
+                  <Link className="hover:text-red-500 duration-300" href="">
                     Financial Advice
                   </Link>
                   <Link className="hover:text-red-500 duration-300" href="/">
@@ -66,22 +71,22 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-medium text-xl">Newsletter</p>
-                <div className="flex flex-col mt-4 space-y-2 text-sm text-white">
-                  <a className="hover:opacity-75" href="">
+                <div className="flex flex-col mt-4 space-y-2 text-md text-white">
+                  <p>
                     Get in your inbox the latest News
-                  </a>
+                  </p>
                   <div className="space-y-3">
                     <input
                       type="text"
                       placeholder="Your Name"
-                      className="bg-gray-200 py-3 rounded-lg p-6"
+                      className="bg-blue-700 py-3 rounded-lg p-6"
                     />
                     <input
                       type="text"
                       placeholder="Email Address"
-                      className="bg-gray-200 py-3 rounded-lg p-6"
+                      className="py-3 rounded-lg p-6 bg-blue-700"
                     />
-                    <button className="bg-red-500 text-white py-3 rounded-lg p-7">
+                    <button className="bg-red-500 text-white py-3 rounded-lg p-7 hover:bg-white hover:text-red-500 duration-300">
                       SUBSCRIBE
                     </button>
                   </div>

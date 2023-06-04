@@ -23,7 +23,8 @@ const OurBlog = () => {
         </Link>
         </div>
       </div>
-      <div className="flex gap-5 relative">
+      <div className="flex flex-col gap-5 relative">
+
         <Image src="/images/CoupleTaxReview.jpg" alt="Team Member" width={400} height={100} className="rounded-xl" />
         <Image src="/images/Business-Growth.jpeg" alt="Team Member" width={400} height={100} className="rounded-xl"/>
         <div className="absolute left-10 top-72 text-white text-lg font-semibold">

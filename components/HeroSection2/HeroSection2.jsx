@@ -4,12 +4,12 @@ const HeroSection2 = () => {
   return (
     <div>
       <section className="">
-        <div className="max-w-screen-2xl mx-auto px-4 flex flex-col my-10 w-full space-y-6 lg:py-16 lg:flex-row lg:items-center">
-          <div className="w-full flex flex-col gap-14 lg:flex-row">
+        <div className="max-w-screen-2xl mx-auto px-4 flex flex-col my-10 space-y-6 lg:py-16 lg:flex-row lg:items-center">
+          <div className="flex flex-col gap-14 lg:flex-row">
             <div className="w-full lg:w-4/12">
               <div className="relative">
                 <img
-                  className="object-cover bg-cover w-full h-full mx-auto rounded-md lg:max-w-2xl"
+                  className="object-cover bg-cover mx-auto rounded-md lg:max-w-2xl"
                   src="/images/CoupleTaxReview.jpg"
                   alt="glasses photo"
                 />

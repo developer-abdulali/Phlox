@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Companies = () => {
   return (
-    <section className="flex justify-around items-center max-w-screen-2xl mx-auto mt-20">
+    <section className="flex justify-around items-center w-[1000px] mx-auto mt-20">
         <div className="">
             <Link href="/">
                 <Image src="/images/avent.png" alt="Avent" width={100} height={100}/>

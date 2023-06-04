@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const TeamMembers = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto flex flex-col-reverse lg:flex-row justify-between mt-10">
+    <div className="max-w-screen-2xl mx-10 flex flex-col-reverse lg:flex-row justify-between mt-10">
       <div className="flex flex-col justify-center">
         <div className="flex items-center gap-2">
           <p className="text-xl text-red-500 font-semibold">TEAM MEMBER</p>

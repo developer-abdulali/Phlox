@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="bg-[#061757] text-white mt-10">
-        <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+        <div className="w-[1000px] px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
             <div className="text-white">
               <Image

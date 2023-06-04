@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Location() {
   return (
-    <section className="max-w-screen-2xl mx-auto pt-10 pb-10 text-gray-600 body-font ">
+    <section className="w-full mx-auto pt-10 pb-10 text-gray-600 body-font ">
       <div className="w-full relative">
         <div className="w-full lg:w-6/12">
           <div className="container mx-auto flex">

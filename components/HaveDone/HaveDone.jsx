@@ -192,7 +192,7 @@ const HaveDone = () => {
           <h4 className="text-2xl text-red-500 font-semibold">OUR CASES</h4>
           <div className="bg-red-500 border p-1 w-12"></div>
         </div>
-        <h2 className="text-6xl font-light mt-3">What We Have Done</h2>
+        <h2 className="text-4xl font-light mt-3 md:text-5xl lg:text-6xl">What We Have Done</h2>
       </div>
       <Slider {...settings} className="mt-20">
         {DataDoneCard.map((data) => (

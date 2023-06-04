@@ -7,7 +7,7 @@ import { FaFacebookF, FaPinterest, FaTwitter } from "react-icons/fa";
 const TimingLinks = () => {
   return (
     <header className="bg-[#061757]">
-      <div className="max-w-screen-xl mx-auto -mt-5 hidden md:block px-5 md:px-10 lg:px-10">
+      <div className="max-w-screen-2xl mx-auto -mt-5 hidden md:block px-5 md:px-10">
         <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-24 py-4 md:py-6">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-x-0 md:gap-x-10 text-[#ffffffb5] mb-4 md:mb-0">
             <span className="flex items-center gap-1">

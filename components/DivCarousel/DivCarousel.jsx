@@ -58,7 +58,7 @@ const DivCarousel = () => {
   };
 
   return (
-    <div className="max-w-screen-2xl mx-auto px-4 relative">
+    <div className="max-w-screen-2xl mx-auto">
       <Slider {...settings}>
         {CardData.map((data) => (
           <div key={data.id} className="px-6">

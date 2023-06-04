@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="relative mt-10 h-auto bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-20 bg-blue-500">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
+    <div className="max-w-screen-2xl mx-auto relative mt-10 h-auto bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-20 bg-blue-500">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
         <div className="content px-5">
           <div className="flex items-center gap-3">
             <span className="md:text-[30px] font-medium text-red-500">

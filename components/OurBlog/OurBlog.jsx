@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const OurBlog = () => {
   return (
-    <div className="max-w-screen-2xl mx-auto flex justify-between mt-10">
+    <div className="w-[1000px] mx-auto flex justify-between mt-10">
       <div>
         <div className="flex items-center gap-2">
           <p className="text-xl text-red-500 font-semibold">OUR BLOG</p>

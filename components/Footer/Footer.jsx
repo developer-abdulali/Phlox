@@ -5,11 +5,11 @@ import { BsHeadphones } from "react-icons/bs";
 import {HiOutlineMail} from "react-icons/hi"
 import Image from "next/image";
 
-export default function Footer() {
+const Footer=()=> {
   return (
     <div>
       <footer className="bg-[#061757] text-white mt-10">
-        <div className="w-[1000px] px-4 py-16 mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-screen-2xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
             <div className="text-white">
               <Image
@@ -123,3 +123,4 @@ export default function Footer() {
     </div>
   );
 }
+export default Footer

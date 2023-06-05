@@ -9,8 +9,8 @@ import TalkToUs from "@/components/TalkToUs/TalkToUs";
 import TeamMembers from "@/components/TeamMembers/TeamMembers";
 import Location from "@/components/Location/Location";
 import OurBlog from "@/components/OurBlog/OurBlog";
-// import Companies from "@/components/Companies/Companies";
-// import Footer from "@/components/Footer/Footer";
+import Companies from "@/components/Companies/Companies";
+import Footer from "@/components/Footer/Footer";
 
 
 export default function Home() {
@@ -27,8 +27,8 @@ export default function Home() {
    <TeamMembers />
   <Location />
   <OurBlog />
-  {/* <Companies /> */}
-  {/* <Footer/> */}
+  <Companies />
+  <Footer/>
    </>
   )
 }

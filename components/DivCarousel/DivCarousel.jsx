@@ -62,7 +62,7 @@ const DivCarousel = () => {
       <Slider {...settings}>
         {CardData.map((data) => (
           <div key={data.id} className="px-6">
-            <div className="h-[600px] px-5 relative">
+            <div className="h-[600px] w-[500px] px-2 relative">
               <div className="relative rounded-[30px]">
                 <Image
                   className="mx-auto rounded-2xl"

@@ -9,7 +9,7 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="max-w-screen-2xl mx-auto rounded-xl md:-mt-7 shadow-lg py-5 px-6 bg-red-500 md:px-6 md:mx-5 lg:mx-10 xl:mx-5 2xl:mx-10">
+    <nav className="max-w-screen-2xl mx-auto rounded-xl md:-mt-7 shadow-lg py-5 px-6 bg-red-500 md:px-6 md:mx-5 lg:mx-10 xl:mx-5 2xl:mx-auto">
       <div className="flex justify-between items-center h-10">
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">

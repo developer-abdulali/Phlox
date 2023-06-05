@@ -9,7 +9,7 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="max-w-screen-2xl mx-auto rounded-xl md:-mt-7 shadow-lg py-5 px-6 bg-red-500 md:px-6">
+    <nav className="max-w-screen-2xl mx-auto rounded-xl md:-mt-7 shadow-lg py-5 px-6 bg-red-500 md:px-6 md:mx-5 lg:mx-10 xl:mx-5 2xl:mx-10">
       <div className="flex justify-between items-center h-10">
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
@@ -19,27 +19,27 @@ const Navbar = () => {
               </li>
             </Link>
             <Link href="/Services">
-              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-10">
+              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-8">
                 About
               </li>
             </Link>
             <Link href="/Services">
-              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-10">
+              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-8">
                 Services
               </li>
             </Link>
             <Link href="/About">
-              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-10">
+              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-8">
                 Our Cases
               </li>
             </Link>
             <Link href="/Contact">
-              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-10">
+              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-8">
                 Blog
               </li>
             </Link>
             <Link href="/Services">
-              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-10">
+              <li className="ml-14 text-white hover:text-cyan-500 duration-300 text-xl sm:text-lg sm:ml-8">
                 Contact Us
               </li>
             </Link>

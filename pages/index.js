@@ -12,23 +12,22 @@ import OurBlog from "@/components/OurBlog/OurBlog";
 import Companies from "@/components/Companies/Companies";
 import Footer from "@/components/Footer/Footer";
 
-
 export default function Home() {
   return (
-   <>
-   <TimingLinks/>
-   <Navbar/>
-   <HeroSection />
-   <DivCarousel />
-   <Partnership />
-   <HeroSection2 />
-   <HaveDone />
-   <TalkToUs />
-   <TeamMembers />
-  <Location />
-  <OurBlog />
-  <Companies />
-  <Footer/>
-   </>
-  )
+    <>
+      <TimingLinks />
+      <Navbar />
+      <HeroSection />
+      <DivCarousel />
+      <Partnership />
+      <HeroSection2 />
+      <HaveDone />
+      <TalkToUs />
+      <TeamMembers />
+      <Location />
+      <OurBlog />
+      <Companies />
+      <Footer />
+    </>
+  );
 }

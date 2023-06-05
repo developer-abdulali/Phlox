@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Location() {
+const Location=()=> {
   return (
     <section className="max-w-screen-2xl mx-auto pt-10 pb-10 text-gray-600 body-font ">
       <div className="w-full relative">
@@ -70,3 +70,4 @@ export default function Location() {
     </section>
   );
 }
+export default Location;

@@ -8,7 +8,7 @@ import HaveDone from "@/components/HaveDone/HaveDone";
 import TalkToUs from "@/components/TalkToUs/TalkToUs";
 import TeamMembers from "@/components/TeamMembers/TeamMembers";
 import Location from "@/components/Location/Location";
-// import OurBlog from "@/components/OurBlog/OurBlog";
+import OurBlog from "@/components/OurBlog/OurBlog";
 // import Companies from "@/components/Companies/Companies";
 // import Footer from "@/components/Footer/Footer";
 
@@ -26,7 +26,7 @@ export default function Home() {
    <TalkToUs />
    <TeamMembers />
   <Location />
-  {/* <OurBlog /> */}
+  <OurBlog />
   {/* <Companies /> */}
   {/* <Footer/> */}
    </>

@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const OurBlog = () => {
   return (
-    <div className="w-[1000px] mx-auto flex justify-between mt-10">
+    <div className="max-w-screen-2xl mx-auto flex justify-between mt-10">
       <div>
         <div className="flex items-center gap-2">
           <p className="text-xl text-red-500 font-semibold">OUR BLOG</p>
@@ -23,7 +23,7 @@ const OurBlog = () => {
         </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-5 relative">
+      <div className="flex flex-col md:flex-row gap-5 relative">
 
         <Image src="/images/CoupleTaxReview.jpg" alt="Team Member" width={400} height={100} className="rounded-xl" />
         <Image src="/images/Business-Growth.jpeg" alt="Team Member" width={400} height={100} className="rounded-xl"/>
